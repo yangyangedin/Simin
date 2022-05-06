@@ -75,9 +75,9 @@
       var scene1Pic = "image/1.jpeg";
       var scene2Pic = "image/2.jpeg";
       var scene3Pic = "image/3.jpeg";
-      var panoramaHfov = 1000; //景深
-      var panoramaHfov3 = 1100; //景深
-      var maxHfov = 1100; //最大景深
+      var panoramaHfov = 50; //景深
+      var panoramaHfov3 = 55; //景深
+      var maxHfov = 60; //最大景深
       var panoramaPitch = -10; //仰角
       //链接
       var mobileCss = '';
@@ -88,9 +88,9 @@
         scene1Pic = "image/1.jpeg";
         scene2Pic = "image/2.jpeg";
         scene3Pic = "image/3.jpeg";
-        panoramaHfov = 1400;
-        panoramaHfov3 = 900;
-        maxHfov = 5000; //最大景深
+        panoramaHfov = 60;
+        panoramaHfov3 = 90;
+        maxHfov = 60; //最大景深
         panoramaPitch = 0; //仰角
         mobileCss = ' mobile'
         $(".item").addClass('mobile')
@@ -133,7 +133,7 @@
 	          "autoLoad": true,
 	          "minPitch": -45,
 	          "maxPitch": 45,
-	          "minHfov": 350,
+	          "minHfov": 40,
 	          "maxHfov": maxHfov,
 	        },
 	        "scenes": {
